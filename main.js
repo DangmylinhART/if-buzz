@@ -1,12 +1,22 @@
 /*******************************************************************************
  * Your code here!
  ******************************************************************************/
+//working solution
+ let num = getInput(0);
+ 
+function smt(){
+if (num% 3 == 0) return 'fizz';
+if (num% 5 ==0)  return 'Buzz';
+if (num % 3 ===0  && num % 5 === 0) return 'FizzBuzz';
+return num
+}
+
+let result = smt();
+console.log(result);
 
 
-
-
-
-/*******************************************************************************
+/****************
+***************************************************************
   The below helper function will return an argument the user used when launching
   the app.
 
